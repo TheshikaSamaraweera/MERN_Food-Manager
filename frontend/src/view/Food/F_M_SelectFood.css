@@ -1,0 +1,36 @@
+.foodItem > button {
+    display: none;
+}
+    
+.foodItem:hover > img {
+    opacity: 40%;
+}
+
+.foodItem:hover > button {
+    display: block;
+    z-index: 1;
+}
+
+.btn-check:checked + .btn-outline-primary {
+    background-color: #FFDA43;
+    color: black;
+    font-weight: bold;
+    border: 2px solid #FFDA43;
+     
+}
+
+
+.btn-outline-primary:hover {
+    background-color: #FFDA43;
+    color: black; 
+    border: 2px solid #FFDA43;
+}
+
+.btn-outline-primary {
+    border: 2px solid #FFDA43;
+    color: black; 
+} 
+.custom-icon {
+    font-size: 44px; 
+    color: black;
+}
